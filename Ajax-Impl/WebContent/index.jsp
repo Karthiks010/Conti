@@ -9,17 +9,6 @@
 
 <body>
     <div class="mypanel"></div>
-
-    <script>
-    $.getJSON('http://localhost:8089/test/username?name=Karthik', function(data) {
-        
-        var text =  `Date: ${data.name}<br>
-            		Time: ${data.age}<br>`
-                    
-        
-        $(".mypanel").html(text);
-    });
-    </script>
     
 </body>
 </html>
